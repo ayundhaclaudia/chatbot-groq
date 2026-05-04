@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "health:check": "node scripts/healthcheck.cjs"
   },
   "dependencies": {
+    "groq-sdk": "^1.1.2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
