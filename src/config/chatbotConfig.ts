@@ -1,6 +1,6 @@
 import type { ChatConfig } from "../types/Message";
  
-const chatbotConfig = {
+const chatbotConfig: ChatConfig = {
   botName: "ChefBot",
   welcomeMessage: "Halo! Mau makan apa hari ini?",
   systemInstruction: `
